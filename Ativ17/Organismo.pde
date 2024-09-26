@@ -20,6 +20,7 @@ class Organismo {
     this.percepcao = map(dna[1], 0, 1, 50, 200);
     this.tamanho = map(dna[2], 0, 1, 4, 8);
     this.velocidade = PVector.random2D();
+    
   }
   
   ArrayList<Organismo> atualiza() {
